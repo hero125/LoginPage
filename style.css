@@ -1,0 +1,138 @@
+form{
+    
+    width: 33%;
+    margin: 0 auto;
+    padding: 5px;   
+    background: rgba(20, 8, 8, 0.911);
+    margin-top: 50px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    border-radius:  30px 30px 30px 30px;
+    
+}
+
+
+body{
+    
+    background:linear-gradient(180deg,#ff7f00,rgba(39, 29, 29, 0.705));
+    background-attachment: fixed;
+    }
+
+.titre{
+    text-align: center;
+}
+
+
+#mp{
+    padding: 2%;
+    width: 300px;
+    cursor: text;
+    
+}
+
+
+#mail{
+    padding: 2%;
+    width: 300px;
+}
+
+
+.boutton{
+    align-content: center;
+    
+    padding: 20px;
+    }
+
+.env{
+        width: 50%;
+        border:none;
+        background:green;
+         font-weight: bold; 
+        border-color: rgba(0, 255, 234, 0.144);;
+        padding: 3%;
+        cursor: pointer;
+        box-shadow: royalblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.res {
+        margin-left: 3%;
+        width: 45%;
+        border:none;
+        padding: 3%;
+        background:rgb(228, 18, 11);
+        font-weight: bold;
+        border-color: rgba(0, 255, 234, 0.144);
+        cursor: pointer;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.email :invalid{
+        font-size: 17px;
+        border-color: red; 
+        transition: 0.5s;
+       
+    }
+
+.email :valid{
+        border-color: green ;
+        background-color: green;
+        transition: 0.5s;
+    }
+
+.pass :invalid{
+        font-size: 17px;
+        border-color: red;
+        box-shadow: red;
+        transition: 1s;
+        
+        
+    }
+
+.pass :valid{
+        border-color:hsl(120, 98%, 52%);
+        background: green;
+        transition: 1s;
+    }
+    hr{
+        border:solid orange;
+    }
+
+
+footer{
+        text-align: right;
+        
+    }
+
+    
+    
+        
+.email{
+            border-radius: 50%;
+            border: none;
+            color:orange;
+            text-decoration:white;
+        }
+
+.pass{
+            border-radius: 50% 50% 50% 50%;
+            border: none;
+            background: none;
+            color: orange;
+        }
+
+        .graphemotsdepasse{
+            text-align: left;
+            color: white;
+        }
+        .graphe-email{
+            color: white;
+            text-align: left;
+        }
+        .lien-oublie{
+            color: white;
+        }
+        

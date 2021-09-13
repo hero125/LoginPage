@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action=""><h3 class="titre" >SE CONNECTER</h3>
+
+        <hr>
+
+        <div class="email"><p><b>Veillez entrez votre addresse émail:</b></p>
+            <input type="email" name="Email" id="mail" required placeholder="exemple@kalanso.com" 
+            pattern="[a-z0-9]+@kalanso\.com" >
+            <p class="graphe-email"><b>nb:</b> L'email doit contenir obligatoirement "@kalanso.com" </p>
+        </div>
+
+
+        <div class="pass"><p><b>Veillez entrez votre mots de passe:</b></p>
+            <input type="password" name="password" id="mp" required placeholder="Mots de passe" 
+            minlength="6" maxlength="8" pattern="([a-zA-Z])+([0-9]{.1})"  >
+            <p class="graphemotsdepasse">Le mots de passe doit contenir au moins 6, au plus 7 caracteres et un chiffre obligatoire.</p>
+        </div>
+
+
+
+
+        <div class="boutton">
+
+           <p class="btn"> <input type="submit" value="CONNEXION" class="env" >
+            <input type="reset" value="RESET" class="res">
+        </p>
+    
+        <footer><a class="lien-oublie" href="http://">Mots de passe oublié ?</a><br>
+                <a class="lien-oublie" href="http://">Inscrivez vous</a>
+        </footer>
+        
+        </div>
+        
+    </form>
+
+
+</body>
+</html>
